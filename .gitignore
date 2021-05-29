@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # vscode files 
-.vscode/*
+# .vscode/*
 
 # i don't want to send these files
 invisible-folder/*
