@@ -8,10 +8,15 @@ If you are using vscode, this projects launch.json file configured for node and 
 
 In the database folder you can prepare init db configs for docker-compose.yml.
 
-[eslint information](https://eslint.org/docs/user-guide/getting-started)
+[editorconfig information](https://editorconfig.org/)
 
+[eslint information](https://eslint.org/docs/user-guide/getting-started)
 ```
 npm install eslint --save-dev
 npx eslint --init
+```
+
+[nodemon information](https://nodemon.io/)
+```
 npm install --save-dev nodemon
 ```
