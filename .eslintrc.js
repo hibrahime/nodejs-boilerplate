@@ -1,3 +1,8 @@
+/* eslint-disable no-unused-vars */
+const OFF = 0;
+const WARN = 1;
+const ERROR = 2;
+
 module.exports = {
   env: {
     browser: true,
@@ -11,5 +16,6 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+    'no-console': OFF,
   },
 };

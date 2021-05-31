@@ -1,0 +1,46 @@
+{
+    "openapi": "3.0.0",
+    "servers": [
+        {
+            "description": "Development - Fixture Provider",
+            "url": "http://localhost:3000"
+        }
+    ],
+    "info": {
+        "description": "nodejs boilerplate",
+        "version": "v1",
+        "title": "nodejs boilerplate"
+    },
+    "tags": [
+        {
+            "name": "system",
+            "description": "system info"
+        }
+    ],
+    "paths": {
+        "/api-docs": {
+            "get": {
+                "tags": [
+                    "system"
+                ],
+                "summary": "returns swagger ui",
+                "description": "returns swagger ui",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "testSchema": {}
+        },
+        "parameters": {}
+    }
+}
